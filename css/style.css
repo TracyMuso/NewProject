@@ -1,6 +1,28 @@
-#header {
-
+body{
+    background-color: bisque;
 }
-#header-image {
 
+header {
+height: 20vh;
+}
+
+#header-image {
+    background-size: cover;
+}
+
+ .first {
+    height: 80vh;
+    background-color: black;
+    color: azure;
+}
+
+.second{
+    height: 100vh;
+    justify-content: center;
+}
+
+.third{
+    height: 30vh;
+    background-color: slategray;
+    color: azure;
 }
