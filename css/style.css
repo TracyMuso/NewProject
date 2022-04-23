@@ -1,19 +1,65 @@
+
 body{
     background-color: rgb(242, 241, 239);
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/02/18/14/polaroid-1431735_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
     padding-left: 100px;
     padding-right: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+p {
+    text-align: left;
+}
+@media (max-width: 350px) {
+    header{
+        height: 8vh;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+  }
 
 header {
-height: 10vh;
-text-align: right;
+display: flex;
+height: 5vh;
+text-align: left;
 justify-content: space-around;
 }
 
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  
+  .nav-link {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ul {
+    list-style: none;
+    display: flex;
+  }
+
 .top{
 position: sticky;
-top: 25px;
+top: 30px;
 }
 
 header a{
@@ -21,13 +67,15 @@ header a{
 }
 
 .logo{
-    width: 70px;
-    height: 60px;
-    padding-left: 40px;
+    width: 40px;
+    height: 35px;
 }
+
 #header-image {
     background-size: cover;
     position: sticky;
+    padding: 40px 0px;
+
 }
 
  .first {
@@ -46,12 +94,11 @@ main{
 
 .third{
     height: 14vh;
-    background-color: rgb(196, 198, 201);
     color: rgb(21, 23, 23);
     justify-content: center;
-    text-align: right;
+    text-align: left;
     padding-right: 49px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .third a{
