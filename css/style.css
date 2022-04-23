@@ -13,6 +13,7 @@ body{
 p {
     text-align: left;
 }
+
 @media (max-width: 350px) {
     header{
         height: 8vh;
@@ -23,10 +24,12 @@ p {
     margin: 0 auto;
     max-width: 1200px;
     overflow: visible;
+   
   }
 
 header {
 display: flex;
+width: auto;
 height: 5vh;
 text-align: left;
 justify-content: space-around;
@@ -83,7 +86,10 @@ header a{
 }
 
 main{
-    justify-content: center;
+    align-items: left;
+}
+
+#form{
     text-align: center;
 }
 
@@ -119,3 +125,10 @@ main{
 button{
     background-color: yellow;
 }
+
+#video {
+    width: 400px;
+    height: 260px;
+    padding-right: 8px;
+}
+
